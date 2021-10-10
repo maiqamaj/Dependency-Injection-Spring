@@ -6,7 +6,7 @@ public class FastFoodChef implements Chef {
 	private String name;
 
 	public void setEmail(String email) {
-		System.out.println("FastFoodChef : inside setter method - setEmailAddress");
+		System.out.println("FastFoodChef : inside setter method - setEmail");
 
 		this.email = email;
 	}
@@ -20,7 +20,7 @@ public class FastFoodChef implements Chef {
 	}
 
 	public void setName(String name) {
-		System.out.println("FastFoodChef : inside setter method - setTeam");
+		System.out.println("FastFoodChef : inside setter method - setName");
 
 		this.name = name;
 	}
