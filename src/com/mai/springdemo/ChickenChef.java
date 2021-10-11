@@ -14,7 +14,6 @@ public class ChickenChef implements Chef {
 		freeService = theService;
 	}
 
-
 	@Override
 	public String getMeal() {
 		// TODO Auto-generated method stub
@@ -23,7 +22,20 @@ public class ChickenChef implements Chef {
 
 	@Override
 	public String getFreeDrink() {
-		
-		 return freeService.getFree();
+
+		return freeService.getFree();
 	}
+
+	// add an init method
+	public void StartUp() {
+		System.out.println("ChickenChef : inside method StartUp");
+
+	}
+
+	// add a destroy method
+	public void CleanUp() {
+		System.out.println("ChickenChef : inside method CleanUp");
+
+	}
+
 }

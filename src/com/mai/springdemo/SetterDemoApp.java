@@ -7,7 +7,7 @@ public class SetterDemoApp {
 
 		// load spring config file
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-		// retrieve bean from spring container
+		// retrieve bean f rom spring container
 		FastFoodChef chef = context.getBean("myFastFoodChef", FastFoodChef.class);
 
 		// call method on the bean
